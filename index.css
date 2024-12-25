@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    background-image: linear-gradient(to right,rgba(255, 0, 0, 0.356),rgba(0, 0, 255, 0.233));
+    
+
+}
+.card{
+    border: 2px solid black;
+    width:400px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 253, 0.521),white);
+    border-radius: 10%;
+    position: absolute;
+    top:5%;
+    left: 25%;
+    right:25%;
+    bottom:25%;
+}
+.card img{
+    margin: 10px;
+    position: relative;
+    left:33%
+
+}
+header>h3,header>p{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+.about>p,.about>h2{
+    text-align: center;
+    padding: 5px 20px;
+}
+footer{
+    position: absolute;
+    top: 570px;
+    left:70px;
+    margin-bottom: 10px;
+    
+}
+footer>ul{
+    display: flex;
+    font-weight: bolder;
+    text-transform: capitalize;
+    gap: 30px;
+    list-style: none;
+    
+}
+footer>ul>li{
+    font-size: 1rem;
+    border: .5px solid rgba(255, 0, 0, 0.623);
+    background-image: linear-gradient(to right,rgba(255, 0, 0, 0.74),white);
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.experience ul{
+    list-style: none;
+    margin: 0 10px 5px;
+
+}
+.experience li{
+    margin-bottom: 2px;
+}
+.experience p{
+    font-weight: bold;
+}
+
+.contact ul{
+    list-style: none;
+
+}
+.contact li a{
+    border: 2px solid black;
+    display: block;
+    padding:5px;
+    text-align: center;
+    cursor :pointer;
+    margin:10px;
+    text-decoration: none;
+    background-color: white;
+    color:blue
+}
+
+.contact li a:hover{
+    background-color: red;
+    color:white;
+}
+.contact li a:active{
+    background-color: rgba(255, 0, 0, 0.774);
+    color: rgba(255, 255, 255, 0.767);
+}
+footer li:hover{
+       background-image: linear-gradient(rgba(255, 0, 0, 0.603),rgba(255, 255, 255, 0.699));
+       color: rgba(0, 0, 0, 0.822);
+}
+footer li:active{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.432),rgba(255, 255, 255, 0.445));
+    color: rgba(0, 0, 0, 0.486);
+}
